@@ -1,0 +1,41 @@
+    1  LS
+    2  LS
+    3  ls
+    4  ls-a
+    5  cd desktop
+    6  git config --glabal user. name 'Antonio Kalenda Dilukila
+    7  git config --global user.name 'Antonio Dilukila'
+    8  git config --global user.email 'kalendadilukila@gmail.com
+    9  git config --global user.name 'Antonio Kalenda Dilukila'
+   10  git config --global user.email 'kalendadilukila@gmail.com'
+   11  git config --global user.email 'kalendadilukila@gmail.com'
+   12  git config user.name
+   13  cd Desktop/
+   14  mkdir curso_Git
+   15  cd curso_git/
+   16  git config user.name
+   17  git init
+   18  git status
+   19  echo '#Aprendendo usar o Gt' > readme.md
+   20  git status
+   21  git add readme.md
+   22  git commit -m 'commit inicial'
+   23  git status
+   24  echo '##Aula 1' >> readme.md
+   25  git status
+   26  echo 'Antonio Kalenda Dilukila' > participante.txt
+   27  git status
+   28  git add .
+   29  git status
+   30  git restore --staged participante.txt
+   31  git status
+   32  git add participantes.txt
+   33  git status
+   34  git restore --staged .
+   35  git status
+   36  git commit -am 'Alteração no readme'
+   37  git status
+   38  git add participante.txt
+   39  git status
+   40  git commit -m 'Adicionado participante.txt'
+   41  history > Aula_3.txt
